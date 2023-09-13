@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.tela-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 20px;
+    width: 330px;
+    height: 370px;
+}
+
+.card .card-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .card-superior img {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+hr {
+    width: 100%;
+}
+
+.card .card-inferior {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card .card-superior p,
+.card .card-inferior .info .titulo {
+    font-weight: 700;
+}
+
+.card .card-superior .idade,
+.card .card-superior .cidade,
+.card .card-inferior .info .subtitulo {
+    color: hsl(227, 10%, 46%);
+}

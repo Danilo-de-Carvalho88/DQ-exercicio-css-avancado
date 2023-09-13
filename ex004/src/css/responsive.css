@@ -1,0 +1,10 @@
+@media(max-width: 500px){
+    .card-principal{
+        width: 345px;
+    }
+
+    .card-principal .gerador-button{
+        padding: 12px;
+        bottom: -25px;
+    }
+}
